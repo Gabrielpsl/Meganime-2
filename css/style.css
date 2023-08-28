@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #020008;
+}
+/* referente ao header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px 0 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin: 0px 0 0 30px;
+    width: 120px;
+    height: 80px;
+}
+
+
+.navBar {
+
+}
+
+.navBar ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navBar ul li {
+    
+}
+
+
+.navBar ul a {
+    color: white;
+    text-decoration: none;
+
+        &:hover {
+            color:blueviolet ;
+            transition-delay: 15ms;
+        }
+}
+
+
+/* Fim do Header */
+
+/********************** Conteúdo Príncipal *****************************/
+
+.content{
+
+}
+
+/* ***********cards*************** */
+ 
+.content-txt {
+
+}
+
+.icn-animes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icn-animes a {
+    text-decoration: none;
+    color: white;
+}
+
+.icn-animes-ani {
+
+}
+
+.icn-animes-ani img {
+    width: 200px;
+    height: 260px;
+}
+
+.content-txt h1 {
+    color: white;
+}
+
+.content-txt p {
+    color: white;
+}
+
+.icn-animes h2 {
+    color: white;
+}
+
+
+
+
+
+/*********************** Fim do conteúdo Principal *********************/

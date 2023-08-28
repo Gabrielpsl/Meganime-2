@@ -1,0 +1,22 @@
+/* Estilize o container do carrossel e as imagens */
+.carousel-container {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.boxContainer {
+  width: 100%;
+  background-color: burlywood;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel img {
+  width: 800px;
+  height: auto;
+}
